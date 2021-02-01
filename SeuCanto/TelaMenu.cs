@@ -67,7 +67,7 @@ namespace SeuCanto
             frmLog.ShowDialog();
         }
 
-        private void btnBarcosDisp_Click(object sender, EventArgs e)
+        private void btnQuartosDisp_Click(object sender, EventArgs e)
         {
             
         }
@@ -80,8 +80,8 @@ namespace SeuCanto
 
         private void button5_Click(object sender, EventArgs e)
         {
-            frmReservarQuarto reservarBarco = new frmReservarQuarto();
-            reservarBarco.ShowDialog();
+            frmReservarQuarto reservarQuarto = new frmReservarQuarto();
+            reservarQuarto.ShowDialog();
         }
 
         private void frmMenu_Load(object sender, EventArgs e)
@@ -118,8 +118,9 @@ namespace SeuCanto
 
         private void btnConsultarQuarto_Click(object sender, EventArgs e)
         {
-         
-           
+            frmQuartosDisp frmBarDisp = new frmQuartosDisp(4);// não exibe o botão 
+            frmBarDisp.ShowDialog();
+
         }
 
         private void gbGerenciarReservas_Enter(object sender, EventArgs e)

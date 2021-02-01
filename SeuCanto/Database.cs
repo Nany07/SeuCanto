@@ -91,7 +91,7 @@ namespace SeuCanto
                 MessageBox.Show("Erro ao criar banco de dados: " + ex.Message);
             }
 
-            //criando tabela ciente
+            //criando tabela cliente
             sql.Clear();
             sql.AppendLine("CREATE TABLE IF NOT EXISTS cliente(");
             sql.AppendLine("codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, ");

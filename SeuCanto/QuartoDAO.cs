@@ -15,9 +15,9 @@ namespace SeuCanto
 
             Database Quarto = Database.GetInstance();
 
-            string qry = string.Format("INSERT INTO quarto(nro_quarto,tipo,qtde_pessoas,preco_dia)" +
-                                        "VALUES('{0}','{1}','{2}','{3}')",
-                                        quarto.Nro_quarto, quarto.Tipo, quarto.QtdePessoas, quarto.PrecoDia.ToString("F"));
+            string qry = string.Format("INSERT INTO quarto(tipo,qtde_pessoas,preco_dia)" +
+                                        "VALUES('{0}','{1}','{2}')",
+                                        quarto.Tipo, quarto.QtdePessoas, quarto.PrecoDia.ToString("F"));
             Quarto.ExecuteSQL(qry);
         }
 
@@ -29,7 +29,7 @@ namespace SeuCanto
 
             string qry = "SELECT nro_quarto,tipo,qtde_pessoas,preco_dia " +
                         "FROM quarto   " +
-                        "WHERE codigo =" + nro_quarto;
+                        "WHERE nro_quarto =" + nro_quarto;
 
             if (conexao.State != System.Data.ConnectionState.Open)
                 conexao.Open();
@@ -66,7 +66,7 @@ namespace SeuCanto
             Database Quarto = Database.GetInstance();
 
             string qry = string.Format("UPDATE quarto SET tipo='{0}',qtde_pessoas ='{1}',preco_dia ='{2}' " +
-                                        "WHERE codigo ='{3}'",
+                                        "WHERE nro_quarto ='{3}'",
                                         quarto.Tipo, quarto.QtdePessoas,quarto.PrecoDia.ToString("F"), quarto.Nro_quarto);
 
             Quarto.ExecuteSQL(qry);

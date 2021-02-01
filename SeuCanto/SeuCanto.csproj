@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmQuartosDisp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuartosDisp.designer.cs">
+      <DependentUpon>frmQuartosDisp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quarto.cs" />
     <Compile Include="QuartoDAO.cs" />
     <Compile Include="CadastroCliente.cs">
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroFuncionario.resx">
       <DependentUpon>CadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuartosDisp.resx">
+      <DependentUpon>frmQuartosDisp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroQuarto.resx">
       <DependentUpon>frmCadastroQuarto.cs</DependentUpon>

@@ -52,7 +52,7 @@ namespace SeuCanto
             // carregando dados do quarto 
             if (reserva_quarto.Quarto != null)
              {
-                 //quarto = quartoDao.Read(jnBarDisp.IdQuarto);
+                 //quarto = quartoDao.Read(jnQuarDisp.IdQuarto);
                  textBox5.Text = reserva_quarto.Quarto.Tipo.ToString();
                  textBox2.Text = reserva_quarto.Quarto.Nro_quarto.ToString();
                  textBox3.Text = reserva_quarto.Quarto.PrecoDia.ToString();
@@ -126,7 +126,23 @@ namespace SeuCanto
 
         private void button1_Click(object sender, EventArgs e)
         {
-           // desenvolver...            
+            // desenvolver...    
+            QuartoDAO quartoDao = new QuartoDAO();
+            frmQuartosDisp jnQuarDisp = new frmQuartosDisp(1);
+
+            jnQuarDisp.ShowDialog();
+
+            // carregando dados do quarto 
+            if (jnQuarDisp.IdQuarto != 0)
+            {
+                quarto = quartoDao.Read(jnQuarDisp.IdQuarto);
+                textBox5.Text = quarto.Tipo.ToString();
+                textBox2.Text = quarto.Nro_quarto.ToString();
+                textBox3.Text = quarto.PrecoDia.ToString();
+                precoDia = quarto.PrecoDia; // jogando na variavel com o valor do preco/dia do quarto
+                // atualizando dados de preco total
+                textBox6.Text = totalPreco().ToString();
+            }
 
         }
 

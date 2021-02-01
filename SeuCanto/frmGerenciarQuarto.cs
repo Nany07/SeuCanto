@@ -25,13 +25,15 @@ namespace SeuCanto
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-           //desenvolvi
+            frmQuartosDisp frmQroDis = new frmQuartosDisp(2);
+            frmQroDis.ShowDialog();
         }
 
 
         private void btnDeletar_Click(object sender, EventArgs e)
         {
-          //desenvolvi
+            frmQuartosDisp frmQroDis = new frmQuartosDisp(3);
+            frmQroDis.ShowDialog();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
