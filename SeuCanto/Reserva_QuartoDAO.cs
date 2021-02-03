@@ -17,8 +17,7 @@ namespace SeuCanto
             Database dbQuarto = Database.GetInstance();
 
             //OBS!!
-            //Criar um emprestimo, eh colocar o campo devolucao como null
-            //Foi emprestado, ainda nao devolvido...
+           
 
             string qry =
             string.Format("INSERT INTO reserva_quarto(cod_cli,cod_quarto,data_ini_aluguel, data_devol, preco_total,cod_func) " +
@@ -27,7 +26,7 @@ namespace SeuCanto
                           r.DataEntrega.ToString("yyyy-MM-dd"), r.PrecoTotal.ToString("F"), r.CodFunc);
 
             // Uso a instância de Database para executar o comando sql.
-            dbQuarto.ExecuteSQL(qry);
+            dbQuarto.ExecuteSQL(qry);   
         }
 
        

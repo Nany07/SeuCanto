@@ -116,7 +116,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmQuartosDisp";
-            this.Text = "Barcos Disponíveis";
+            this.Text = "Quartos Disponíveis";
             this.Load += new System.EventHandler(this.frmQuartosDisp_Load);
             this.Click += new System.EventHandler(this.frmQuartosDisp_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
