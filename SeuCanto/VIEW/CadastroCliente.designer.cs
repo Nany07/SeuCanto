@@ -43,7 +43,6 @@
             this.lblCelularCliente = new System.Windows.Forms.Label();
             this.btnVoltarMenu = new System.Windows.Forms.Button();
             this.btnSalvarCadastroCliente = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblBairroCliente = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.cboEstadoCliente = new System.Windows.Forms.ComboBox();
@@ -52,7 +51,6 @@
             this.txtCpfCliente = new System.Windows.Forms.MaskedTextBox();
             this.txtCelularCliente = new System.Windows.Forms.MaskedTextBox();
             this.txtCepCliente = new System.Windows.Forms.MaskedTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNomeCliente
@@ -213,17 +211,6 @@
             this.btnSalvarCadastroCliente.UseVisualStyleBackColor = true;
             this.btnSalvarCadastroCliente.Click += new System.EventHandler(this.btnSalvarCadastroCliente_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            //this.pictureBox1.Image = global::SeuCanto.Properties.Resources.dog_tag;
-            this.pictureBox1.Location = new System.Drawing.Point(42, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // lblBairroCliente
             // 
             this.lblBairroCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -354,7 +341,6 @@
             this.Controls.Add(this.lblNroLogradouro);
             this.Controls.Add(this.txtNomeLogradouro);
             this.Controls.Add(this.lblLogradouroCliente);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cboEstadoCivilCliente);
             this.Controls.Add(this.lblEstadoCivil);
             this.Controls.Add(this.lblCpfCliente);
@@ -369,7 +355,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Cadastro Cliente";
             this.Load += new System.EventHandler(this.frmCadastroCliente_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -382,7 +367,6 @@
         private System.Windows.Forms.Label lblCpfCliente;
         private System.Windows.Forms.Label lblEstadoCivil;
         private System.Windows.Forms.ComboBox cboEstadoCivilCliente;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblLogradouroCliente;
         private System.Windows.Forms.TextBox txtNomeLogradouro;
         private System.Windows.Forms.Label lblNroLogradouro;

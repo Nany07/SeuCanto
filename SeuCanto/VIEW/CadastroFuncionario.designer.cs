@@ -56,7 +56,6 @@
             this.btnApagar = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.txtCpfFuncionario = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
             this.mtbCelular = new System.Windows.Forms.MaskedTextBox();
             this.cmbFuncao = new System.Windows.Forms.ComboBox();
@@ -65,7 +64,6 @@
             this.txtDataAdmissao = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNomeFuncionario
@@ -379,17 +377,6 @@
             this.txtCpfFuncionario.Size = new System.Drawing.Size(91, 22);
             this.txtCpfFuncionario.TabIndex = 46;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(47, 50);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // mtbTelefone
             // 
             this.mtbTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -507,7 +494,6 @@
             this.Controls.Add(this.lblLogradouroFuncionario);
             this.Controls.Add(this.lblCpfFuncionario);
             this.Controls.Add(this.lblNomeFuncionario);
-            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -517,15 +503,12 @@
             this.Name = "frmCadastroFuncionario";
             this.Text = "Cadastro Funcionário";
             this.Load += new System.EventHandler(this.frmCadastroFuncionario_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblNomeFuncionario;
         private System.Windows.Forms.Label lblCpfFuncionario;
         private System.Windows.Forms.Label lblLogradouroFuncionario;

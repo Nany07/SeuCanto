@@ -52,14 +52,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.picSalverReserva = new System.Windows.Forms.PictureBox();
-            this.picCancelarReserva = new System.Windows.Forms.PictureBox();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSalverReserva)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCancelarReserva)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSalvar
@@ -295,22 +291,6 @@
             this.groupBox3.Text = "Quarto";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // picSalverReserva
-            // 
-            this.picSalverReserva.Location = new System.Drawing.Point(0, 0);
-            this.picSalverReserva.Name = "picSalverReserva";
-            this.picSalverReserva.Size = new System.Drawing.Size(100, 50);
-            this.picSalverReserva.TabIndex = 24;
-            this.picSalverReserva.TabStop = false;
-            // 
-            // picCancelarReserva
-            // 
-            this.picCancelarReserva.Location = new System.Drawing.Point(0, 0);
-            this.picCancelarReserva.Name = "picCancelarReserva";
-            this.picCancelarReserva.Size = new System.Drawing.Size(100, 50);
-            this.picCancelarReserva.TabIndex = 23;
-            this.picCancelarReserva.TabStop = false;
-            // 
             // btnAtualizar
             // 
             this.btnAtualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -328,8 +308,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(847, 453);
             this.Controls.Add(this.btnAtualizar);
-            this.Controls.Add(this.picCancelarReserva);
-            this.Controls.Add(this.picSalverReserva);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -347,8 +325,6 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSalverReserva)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCancelarReserva)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -377,8 +353,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.PictureBox picSalverReserva;
-        private System.Windows.Forms.PictureBox picCancelarReserva;
         private System.Windows.Forms.Button btnProCliente;
         private System.Windows.Forms.Button btnAtualizar;
     }

@@ -37,14 +37,12 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.picQuartoCadastro = new System.Windows.Forms.PictureBox();
             this.btnDeletar = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnPrecoHora = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picQuartoCadastro)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -130,14 +128,6 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // picQuartoCadastro
-            // 
-            this.picQuartoCadastro.Location = new System.Drawing.Point(0, 0);
-            this.picQuartoCadastro.Name = "picQuartoCadastro";
-            this.picQuartoCadastro.Size = new System.Drawing.Size(100, 50);
-            this.picQuartoCadastro.TabIndex = 51;
-            this.picQuartoCadastro.TabStop = false;
-            // 
             // btnDeletar
             // 
             this.btnDeletar.Location = new System.Drawing.Point(409, 394);
@@ -194,7 +184,6 @@
             this.Controls.Add(this.btnPrecoHora);
             this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.btnAtualizar);
-            this.Controls.Add(this.picQuartoCadastro);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.numericUpDown1);
@@ -211,7 +200,6 @@
             this.Text = "Cadastro de Quarto";
             this.Load += new System.EventHandler(this.frmCadastroQuarto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picQuartoCadastro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,7 +214,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.PictureBox picQuartoCadastro;
         private System.Windows.Forms.Button btnDeletar;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.TextBox btnPrecoHora;

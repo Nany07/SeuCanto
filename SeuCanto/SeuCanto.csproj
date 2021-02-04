@@ -72,93 +72,93 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmQuartosDisp.cs">
+    <Compile Include="VIEW\frmQuartosDisp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuartosDisp.designer.cs">
+    <Compile Include="VIEW\frmQuartosDisp.designer.cs">
       <DependentUpon>frmQuartosDisp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quarto.cs" />
-    <Compile Include="QuartoDAO.cs" />
-    <Compile Include="CadastroCliente.cs">
+    <Compile Include="MODEL\Quarto.cs" />
+    <Compile Include="DAO\QuartoDAO.cs" />
+    <Compile Include="VIEW\CadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroCliente.designer.cs">
+    <Compile Include="VIEW\CadastroCliente.designer.cs">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroFuncionario.cs">
+    <Compile Include="VIEW\CadastroFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroFuncionario.designer.cs">
+    <Compile Include="VIEW\CadastroFuncionario.designer.cs">
       <DependentUpon>CadastroFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="ClienteDAO.cs" />
-    <Compile Include="Database.cs" />
-    <Compile Include="frmCadastroQuarto.cs">
+    <Compile Include="MODEL\Cliente.cs" />
+    <Compile Include="DAO\ClienteDAO.cs" />
+    <Compile Include="DAO\Database.cs" />
+    <Compile Include="VIEW\frmCadastroQuarto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroQuarto.designer.cs">
+    <Compile Include="VIEW\frmCadastroQuarto.designer.cs">
       <DependentUpon>frmCadastroQuarto.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConsulReservaCliente.cs">
+    <Compile Include="VIEW\frmConsulReservaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConsulReservaCliente.designer.cs">
+    <Compile Include="VIEW\frmConsulReservaCliente.designer.cs">
       <DependentUpon>frmConsulReservaCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGerenciarQuarto.cs">
+    <Compile Include="VIEW\frmGerenciarQuarto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGerenciarQuarto.designer.cs">
+    <Compile Include="VIEW\frmGerenciarQuarto.designer.cs">
       <DependentUpon>frmGerenciarQuarto.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGerenciarFuncionario.cs">
+    <Compile Include="VIEW\frmGerenciarFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGerenciarFuncionario.designer.cs">
+    <Compile Include="VIEW\frmGerenciarFuncionario.designer.cs">
       <DependentUpon>frmGerenciarFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="VIEW\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.designer.cs">
+    <Compile Include="VIEW\frmLogin.designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProcurarCliente.cs">
+    <Compile Include="VIEW\frmProcurarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProcurarCliente.designer.cs">
+    <Compile Include="VIEW\frmProcurarCliente.designer.cs">
       <DependentUpon>frmProcurarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProcurarFuncionario.cs">
+    <Compile Include="VIEW\frmProcurarFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProcurarFuncionario.designer.cs">
+    <Compile Include="VIEW\frmProcurarFuncionario.designer.cs">
       <DependentUpon>frmProcurarFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRelatorioReserva.cs">
+    <Compile Include="VIEW\frmRelatorioReserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRelatorioReserva.designer.cs">
+    <Compile Include="VIEW\frmRelatorioReserva.designer.cs">
       <DependentUpon>frmRelatorioReserva.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmReservarQuarto.cs">
+    <Compile Include="VIEW\frmReservarQuarto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReservarQuarto.designer.cs">
+    <Compile Include="VIEW\frmReservarQuarto.designer.cs">
       <DependentUpon>frmReservarQuarto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="FuncionarioDAO.cs" />
-    <Compile Include="Gerenciar.cs">
+    <Compile Include="MODEL\Funcionario.cs" />
+    <Compile Include="DAO\FuncionarioDAO.cs" />
+    <Compile Include="VIEW\Gerenciar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gerenciar.designer.cs">
+    <Compile Include="VIEW\Gerenciar.designer.cs">
       <DependentUpon>Gerenciar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MODEL\Login.cs" />
+    <Compile Include="MODEL\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repReserva.cs">
       <AutoGen>True</AutoGen>
@@ -166,52 +166,52 @@
       <DependentUpon>repReserva.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Reserva_QuartoDAO.cs" />
-    <Compile Include="Reserva_Quarto.cs" />
-    <Compile Include="Session.cs" />
-    <Compile Include="TelaMenu.cs">
+    <Compile Include="DAO\Reserva_QuartoDAO.cs" />
+    <Compile Include="MODEL\Reserva_Quarto.cs" />
+    <Compile Include="MODEL\Session.cs" />
+    <Compile Include="VIEW\TelaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaMenu.designer.cs">
+    <Compile Include="VIEW\TelaMenu.designer.cs">
       <DependentUpon>TelaMenu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CadastroCliente.resx">
+    <EmbeddedResource Include="VIEW\CadastroCliente.resx">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroFuncionario.resx">
+    <EmbeddedResource Include="VIEW\CadastroFuncionario.resx">
       <DependentUpon>CadastroFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuartosDisp.resx">
+    <EmbeddedResource Include="VIEW\frmQuartosDisp.resx">
       <DependentUpon>frmQuartosDisp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCadastroQuarto.resx">
+    <EmbeddedResource Include="VIEW\frmCadastroQuarto.resx">
       <DependentUpon>frmCadastroQuarto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConsulReservaCliente.resx">
+    <EmbeddedResource Include="VIEW\frmConsulReservaCliente.resx">
       <DependentUpon>frmConsulReservaCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGerenciarQuarto.resx">
+    <EmbeddedResource Include="VIEW\frmGerenciarQuarto.resx">
       <DependentUpon>frmGerenciarQuarto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGerenciarFuncionario.resx">
+    <EmbeddedResource Include="VIEW\frmGerenciarFuncionario.resx">
       <DependentUpon>frmGerenciarFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="VIEW\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProcurarCliente.resx">
+    <EmbeddedResource Include="VIEW\frmProcurarCliente.resx">
       <DependentUpon>frmProcurarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProcurarFuncionario.resx">
+    <EmbeddedResource Include="VIEW\frmProcurarFuncionario.resx">
       <DependentUpon>frmProcurarFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRelatorioReserva.resx">
+    <EmbeddedResource Include="VIEW\frmRelatorioReserva.resx">
       <DependentUpon>frmRelatorioReserva.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmReservarQuarto.resx">
+    <EmbeddedResource Include="VIEW\frmReservarQuarto.resx">
       <DependentUpon>frmReservarQuarto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gerenciar.resx">
+    <EmbeddedResource Include="VIEW\Gerenciar.resx">
       <DependentUpon>Gerenciar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -229,7 +229,7 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>repReserva.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaMenu.resx">
+    <EmbeddedResource Include="VIEW\TelaMenu.resx">
       <DependentUpon>TelaMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
